@@ -1,4 +1,122 @@
 body,html{
     margin:0px;
     padding:0px;
+    background-color:#1919e6;
+}
+.all{
+    width:1280px;
+    height:720px;
+    background-color:#4040ff;
+    border:solid #0000cc 5px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.ameliatop{
+    width:1280;
+    height:5px;
+    background-color:#0000cc;
+    color:#0000cc;
+}
+.top{
+    width:1280px;
+    height:72px;
+    background-color:#4040ff;
+    display:flex;
+    margin: 0px;
+    padding:0px;
+}
+.ameliah{
+    width:5px;
+    height:72px;
+    background-color:#0000cc;
+    color:#0000cc;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    padding:0px;
+    margin:0px;
+}
+.button1{
+    height:72px;
+    width:245px;
+    background-color:#4040ff;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color:#0000cc;
+    text-align: center;
+}
+.button2{
+    height:72px;
+    width:245px;
+    background-color:#4040ff;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color:#0000cc;
+    text-align: center;
+}
+.button3{
+    height:72px;
+    width:245px;
+    background-color:#4040ff;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color:#0000cc;
+    text-align: center;
+}
+.button4{
+    height:72px;
+    width:245px;
+    background-color:#4040ff;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color:#0000cc;
+    text-align: center;
+}
+.button5{
+    height:72px;
+    width:245px;
+    background-color:#4040ff;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    color:#0000cc;
+    text-align: center;
+}
+.ameliamid{
+    width:5px;
+    height:576px;
+    background-color:#0000cc;
+    color:#0000cc;
+    float:left;
+}
+.left{
+    width:379px;
+    height:576px;
+    background-color: #4040ff;
+    float: left;
+}
+.right{
+    width:1280px;
+    height:576px;
+    background-color:#4040ff;
+}
+.ameliabot{
+    width:1280;
+    height:5px;
+    background-color:#0000cc;
+    clear:both;
+}
+.bot{
+    width:1280px;
+    height:62px; 
+    color:#0000cc;
+    font-size:32px;
+    padding-top:10px;
+    
 }
