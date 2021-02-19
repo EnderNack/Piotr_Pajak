@@ -5,6 +5,7 @@
     <title>Piotr Pająk - sprawdzian JavaScript</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+  
 </head>
 <body>
     <!--Odpowiada za cały układ strony-->
@@ -16,7 +17,7 @@
                 <div class="ameliah">:</div>
             <div class="button2">ANIMACJE</div>
                 <div class="ameliah">:</div>
-            <div class="button3" onclick="obliczenia()">OBLICZENIA</div>
+            <div class="button3">OBLICZENIA</div>
                  <div class="ameliah">:</div>
             <div class="button4">OBIEKT</div>
                 <div class="ameliah">:</div>
@@ -28,20 +29,28 @@
             <div class="mid"> 
                 <!--Lewa połowa środka-->
                 <div class="left">
+                    <form method="">
                     <fieldset class="formularz">
                         <legend>Formularz</legend>
                             <table>
-                                <form>
-                                    Podaj wartość a: <input type="number" name="a">
-                                    Podaj wartość b: <input type="number" name="b">
-                                    Podaj wartość c: <input type="number" name="c">
-                                    <input type="submit" onclick="pokaz()" value="oblicz">
-                                </form>
+                                    Podaj wartość a: <input type="number" id="a"><br>
+                                    Podaj wartość b: <input type="number" id="b"><br>
+                                    Podaj wartość c: <input type="number" id="c">
+                                    <button onclick="wynik2aaa();">Oblicz</button>
                             </table>    
                         </fieldset>
-                        <div name="wynik1"></div>
+                        <div id="wynik2"></div>
                 </div>
-
+                <button>PobierzA</button>
+                <!-- <script>
+                    var przycisk = document.getElementsByTagName("button")[0];
+                    przycisk.addEventListener("click",function(){
+                        var zmkA = document.getElementById("a").value;
+                        alert(zmkA); 
+                        
+                    });
+                    
+                </script> -->
                     <div class="ameliamid">1</div>
 
                 <!--Prawa połowa środka-->

@@ -1,7 +1,10 @@
-    var a = document.getElementsByName('a').value;
-    var b = document.getElementsByName('b').value;
-    var c = document.getElementsByName('c').value;
-    var wynik2 = parseInt(a) / parseInt(b) - parseInt(a) * parseInt(c);
-   function wynik2(){
-     document.getElementByName('wynik1').value = '= ' + wynik2;
-}
+    
+   function wynik2aaa(){
+    var a = parseInt(document.getElementById("a").value);
+    var b = parseInt(document.getElementById('b').value);
+    var c = parseInt(document.getElementById('c').value);
+    var wynik2 = document.getElementById("wynik2").innerHTML=  a + b + c;
+   console.log(wynik2);
+   // console.log(wynik2)
+//document.getElementById("wynik2").innerHTML = wynik2;
+   }
