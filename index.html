@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <title>Piotr Pająk - sprawdzian JavaScript</title>
     <link rel="stylesheet" href="style.css">
-    <script>
-
-    </script>
+    <script src="script.js"></script>
 </head>
 <body>
     <!--Odpowiada za cały układ strony-->
@@ -18,7 +16,7 @@
                 <div class="ameliah">:</div>
             <div class="button2">ANIMACJE</div>
                 <div class="ameliah">:</div>
-            <div class="button3" onclick="oblicz()">OBLICZENIA</div>
+            <div class="button3" onclick="obliczenia()">OBLICZENIA</div>
                  <div class="ameliah">:</div>
             <div class="button4">OBIEKT</div>
                 <div class="ameliah">:</div>
@@ -29,7 +27,20 @@
             <!--Środkowa częśc strony-->
             <div class="mid"> 
                 <!--Lewa połowa środka-->
-                <div class="left">1</div>
+                <div class="left">
+                    <fieldset class="formularz">
+                        <legend>Formularz</legend>
+                            <table>
+                                <form>
+                                    Podaj wartość a: <input type="number" name="a">
+                                    Podaj wartość b: <input type="number" name="b">
+                                    Podaj wartość c: <input type="number" name="c">
+                                    <input type="submit" onclick="pokaz()" value="oblicz">
+                                </form>
+                            </table>    
+                        </fieldset>
+                        <div name="wynik1"></div>
+                </div>
 
                     <div class="ameliamid">1</div>
 
@@ -38,7 +49,7 @@
             </div>
             <!--Stopka-->
             <div class="ameliabot"></div>
-        <div class="bot"><center><b>&copy Designed by Piotr Gloczek Pająk 2021</b></center></div> 
+        <div class="bot"><center><b>&copy Piotr Pająk 2CTg</b></center></div> 
     </div>        
 </body>
 </html>
